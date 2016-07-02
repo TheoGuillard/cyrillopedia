@@ -1,34 +1,35 @@
-[ENGLISH VERSION](https://github.com/andrestelex/devanaguide/blob/master/README_en.md)
-
-Devanaguide
+Cyrill-o-pedia
 ===========
 
-Este es un sitio web desarrollado en PHP para visualizar los glifos del sistema de escritura Devanagari en diferentes diseños.
-Además muestra el signo en un contexto de 100 palabras que lo utilizan.
-Podés verlo funcionando en http://devanaguide.huertatipografica.com/
+This is a web site in PHP created to visualize cyrillic glyphs in different designs. 
+It also shows glyph information and different words which use it.
 
-#Requerimientos
+![Cyrill-o-pedia](img/site1.jpg)
+![Cyrill-o-pedia](img/site2.png)
+
+## Requirements
 
 PHP
 
-#Utilización
+## Usage
 
-Poné tus archivos fuente devanagari (.otf o .ttf) en la carpeta *fonts* 
-Podés editar la información de cada glifo en el archivo signos.txt
-El sistema solo muestra los glifos que contengan unicode (de otra forma no se visualizan).
+Drag'n'drop your font files into the top area, or select exising ones
+from the menu. 
 
-#Diccionario
+You may also hardcode your own font files (.otf or .ttf) inside *fonts* folder, 
+is you install this on your server. 
+Optional: edit glyph information in *subsets* folder.
 
-El diccionario contiene 16.000 palabras y se encuentra en el archivo [deva-dictionary.txt](https://github.com/andrestelex/devanaguide/blob/master/deva-dictionary.txt)
-Ha sido elaborado a partir de este diccionario: http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html
+## Dictionary
 
+The dictionary contains comma separated cyrillic words. 
+They are stored in [russian-dictionary.txt](russian-dictionary.txt)
 
-Desarrollado por [Andrés Torresi](mailto:andres@huertatipografica.com) para [Huerta Tipográfica](http://www.huertatipografica.com)
-Colaborador: [Juan Pablo del Peral](mailto:juan@huertatipografica.com)
-
+Developed by Alexei Vanyashin, derived from the Devanaguide ([live site](http://devanaguide.huertatipografica.com/), [github](https://github.com/andrestelex/devanaguide)) by [Andrés Torresi](mailto:andres@huertatipografica.com) and [Juan Pablo del Peral](mailto:juan@huertatipografica.com) for [Huerta Tipográfica](http://www.huertatipografica.com)
 
 ### License
 
+Copyright 2016 Alexei Vanyahin (@alexeiva).
 Copyright 2014 Andrés Torresi (@andrestorresi).
 
 Licensed under the Apache License, Version 2.0 (the "License");

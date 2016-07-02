@@ -50,6 +50,12 @@ foreach($fuentes2 as $fuente){
     }\n";
 };
 
+foreach ($fonts as $fuente){
+    $nombre_fuente=substr($fuente, 0, -4);
+    $thumbsBig.='<div class="thumbBig" style="font-family:\''.$nombre_fuente.'\'">'.$char.'<label>'.$nombre_fuente.'</label></div>'."\n";
+    $thumbsWord.='<div class="thumbWord" style="font-family:\''.$nombre_fuente.'\', \'UnicodeFallback\'">'.'<span class="dyntext">'.$char.'нобель</span><label>'.$nombre_fuente.'</label></div>'."\n";
+}
+
 // echo '<pre>';
 // print_r(array_merge($fuentes, $fuentes2));
 // echo '</pre>';

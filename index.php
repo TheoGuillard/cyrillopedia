@@ -49,12 +49,9 @@ $fonts = array_merge($fuentes2, $fuentes);
 </section>
 
 <ul id="navigation">
-	<li>Glyphs App:</li>
     <li><a href="index.php#basic">Basic</a></li>
     <li><a href="index.php#adobe">Adobe Extended</a></li>
     <li><a href="index.php#ext">Extended</a></li>
-    <br />
-    <li>GF</li>
     <li><a href="index.php#gf-cyrillic-plus">GF Cyrillic Plus</a></li>
     <li><a href="index.php#gf-cyrillic-pro">GF Cyrillic Pro</a></li>
     <li><a href="index.php#gf-cyrillic-historical">GF Cyrillic Historical</a></li>

@@ -168,7 +168,7 @@ span.nombre, span.unicode {
 	top: 0px;
 	//float: none;
 	//display: block;
-	margin: 212px 0 0 0;
+	margin: 232px 0 0 0;
 }
 
 #glyphlist a {
@@ -204,6 +204,9 @@ span.nombre, span.unicode {
 	line-height:12px;
 	text-align:left;
 	background: #ccc;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 #glyphlist .unicode{

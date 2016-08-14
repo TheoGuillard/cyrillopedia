@@ -2,7 +2,7 @@
 html,body{
 	height:100%;
 	margin:0;
-	font-family: 'PTS55F', 'UnicodeBMPFallback', sans-serif;
+	font-family: 'PT Sans', 'UnicodeBMPFallback', sans-serif;
 }
 
 .header{
@@ -119,7 +119,7 @@ h1 {
 
 .thumbs label, .thumbWord label {
 	color: #666;
-	font-family: "PTS55F";
+	font-family: "PT Sans";
 	font-size: 10px;
 	line-height: 10px;
 	font-style: normal;
@@ -140,11 +140,11 @@ h1 {
 }
 
 span.nombre, span.unicode {
-	font-family: 'PTS55F' !important;
+	font-family: 'PT Sans' !important;
 }
 
 .signos {
-	font-family: 'PTS55F', 'UnicodeBMPFallback', 'AdobeBlank', sans-serif; 
+	font-family: 'PT Sans', 'UnicodeBMPFallback', sans-serif; 
 	
 	background: #EFEFEF; /* For browsers that do not support gradients */
 	//background: -webkit-linear-gradient(left top, #00BFFF, #BA55D3); /* For Safari 5.1 to 6.0 */
@@ -198,15 +198,15 @@ span.nombre, span.unicode {
 }
 
 #glyphlist .nombre{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 	display: block;
 	width: auto;
 	font-size:10px;
 	line-height:12px;
 	text-align:left;
 	background: #ccc;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
 }
 
 #glyphlist .unicode{
@@ -241,7 +241,8 @@ span.nombre, span.unicode {
 select#preview_font2 {
 	margin: 0 0 0px 10px;
 	padding: 0px 0 0px 0;
-	width: 100px;
+	width: 200px;
+	background: #e5e5e5;
 	float: left;
 }
 
@@ -251,8 +252,6 @@ select#preview_font2 {
 	border: 0;
 	color: #FFF;
 	float: left;
-	float: left;
-	color: #FFF;
 }
 
 .glyphlist-sm {
@@ -430,18 +429,6 @@ footer {
 
 /* clearfix end */
 
-@font-face {
-        font-family: 'PTS55F';
-        src: url('../fonts/PTS55F.ttf');
-        font-weight: normal;
-        font-style: normal;
-    }
-@font-face {
-        font-family: 'PTZ55F';
-        src: url('../fonts/PTZ55F.ttf');
-        font-weight: normal;
-        font-style: normal;
-    }
 @font-face {
         font-family: 'UnicodeBMPFallback';
         src: url('../webfonts/UnicodeBMPFallback.ttf');

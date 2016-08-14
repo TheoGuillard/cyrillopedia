@@ -30,6 +30,18 @@ switch ($enc) {
 		$encname = 'Cyrillic Extended';
 		break;
 
+	case 'gf-cyrillic-plus':
+		$encname = 'GF Cyrillic Plus';
+		break;
+
+	case 'gf-cyrillic-pro':
+		$encname = 'GF Cyrillic Pro';
+		break;		
+
+	case 'gf-cyrillic-historical':
+		$encname = 'GF Cyrillic Historical';
+		break;
+
 	case 'unicyr':
 		$encname = 'Cyrillic <sup>0400-04FF</sup>';
 		break;

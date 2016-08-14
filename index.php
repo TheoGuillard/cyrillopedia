@@ -18,12 +18,12 @@ $fonts = array_merge($fuentes2, $fuentes);
 	<link type="text/css" href="css/estilos.css" rel="stylesheet" charset="utf-8">
 	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="/js/ajax.js"></script>
+	<script src="./js/ajax.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-	<script src="/js/url.min.js"></script>
+	<script src="./js/url.min.js"></script>
 	<script>localStorage.clear();</script>
-	<script src="/js/main.js"></script>
-	<script src="/js/fontdrag.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/fontdrag.js"></script>
 
 	<script type="text/javascript">
 	function setfont() {
@@ -36,7 +36,92 @@ $fonts = array_merge($fuentes2, $fuentes);
 	    
 	}
 	</script>
-	
+<style type="text/css">
+@font-face {
+        font-family: 'Arsenal-Italic';
+        src: url('fonts/Arsenal-Italic.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'Arsenal-Regular';
+        src: url('fonts/Arsenal-Regular.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'Brill Italic';
+        src: url('fonts/Brill Italic.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'Brill Roman';
+        src: url('fonts/Brill Roman.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'GentiumPlusCyrE-I';
+        src: url('fonts/GentiumPlusCyrE-I.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'GentiumPlusCyrE-R';
+        src: url('fonts/GentiumPlusCyrE-R.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'NotoSans-Italic';
+        src: url('fonts/NotoSans-Italic.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'NotoSans-Regular';
+        src: url('fonts/NotoSans-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'NotoSerif-Italic';
+        src: url('fonts/NotoSerif-Italic.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'NotoSerif-Regular';
+        src: url('fonts/NotoSerif-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'PT-Sans';
+        src: url('fonts/PT-Sans.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'PT-Serif';
+        src: url('fonts/PT-Serif.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'SourceCodePro-Black';
+        src: url('fonts/SourceCodePro-Black.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+        font-family: 'SourceCodePro-Regular';
+        src: url('fonts/SourceCodePro-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+</style>	
 </head>
 
 <body class="signos">
@@ -74,7 +159,7 @@ $fonts = array_merge($fuentes2, $fuentes);
 	</select>
 
 	<div id="sliderc"></div>
-	<input type="text" id="font_size_c" style="border:0; color:#222;" value="80px">
+	<input type="text" id="font_size_c" style="border:0; color:#FFF;" value="80px">
 
 	</div>
 	<section id="custom">

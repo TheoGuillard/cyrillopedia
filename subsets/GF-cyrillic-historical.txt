@@ -1,0 +1,20 @@
+0460 | Omega-cy | Letter | Uppercase |
+0464 | Eiotified-cy | Letter | Uppercase |
+0466 | Yuslittle-cy | Letter | Uppercase |
+0468 | Yuslittleiotified-cy | Letter | Uppercase |
+046C | Yusbigiotified-cy | Letter | Uppercase |
+046E | Ksi-cy | Letter | Uppercase |
+0470 | Psi-cy | Letter | Uppercase |
+0476 | Izhitsadblgrave-cy | Letter | Uppercase |
+0478 | Uk-cy | Letter | Uppercase |
+0480 | Koppa-cy | Letter | Uppercase |
+0461 | omega-cy | Letter | Lowercase |
+0465 | eiotified-cy | Letter | Lowercase |
+0467 | yuslittle-cy | Letter | Lowercase |
+0469 | yuslittleiotified-cy | Letter | Lowercase |
+046D | yusbigiotified-cy | Letter | Lowercase |
+046F | ksi-cy | Letter | Lowercase |
+0471 | psi-cy | Letter | Lowercase |
+0477 | izhitsadblgrave-cy | Letter | Lowercase |
+0479 | uk-cy | Letter | Lowercase |
+0481 | koppa-cy | Letter | Lowercase 

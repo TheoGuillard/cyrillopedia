@@ -38,6 +38,17 @@ if ( $enc === "ext-c") {
     $fh = fopen('subsets/cyrglyphs-ext-c.txt','r');
 }
 
+if ( $enc === "gf-cyrillic-plus") {
+    $fh = fopen('subsets/GF-cyrillic-plus.txt','r');
+}
+
+if ( $enc === "gf-cyrillic-pro") {
+    $fh = fopen('subsets/GF-cyrillic-pro.txt','r');
+}
+
+if ( $enc === "gf-cyrillic-historical") {
+    $fh = fopen('subsets/GF-cyrillic-historical.txt','r');
+}
 
 
 $i = 0;

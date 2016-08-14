@@ -49,10 +49,15 @@ $fonts = array_merge($fuentes2, $fuentes);
 </section>
 
 <ul id="navigation">
-	<li>Custom:</li>
+	<li>Glyphs App:</li>
     <li><a href="index.php#basic">Basic</a></li>
     <li><a href="index.php#adobe">Adobe Extended</a></li>
     <li><a href="index.php#ext">Extended</a></li>
+    <br />
+    <li>GF</li>
+    <li><a href="index.php#gf-cyrillic-plus">GF Cyrillic Plus</a></li>
+    <li><a href="index.php#gf-cyrillic-pro">GF Cyrillic Pro</a></li>
+    <li><a href="index.php#gf-cyrillic-historical">GF Cyrillic Historical</a></li>
     <br />
     <li>Unicode:</li>
     <li><a href="index.php#unicyr">Cyrillic<sup>0400-04FF</sup></a></li>
@@ -63,11 +68,10 @@ $fonts = array_merge($fuentes2, $fuentes);
 </ul>
  
 	<select id="preview_font2" onchange="setfont();">
-		<option value="">Default</option>
 	<? 
 		foreach ($fonts as $fuente) {
 			$nombre_fuente=substr($fuente, 0, -4);
-			echo '<option value="' . $nombre_fuente.', AdobeBlank;">'.$nombre_fuente.'</option>';
+			echo '<option value="' . $nombre_fuente.', UnicodeBMPFallback;">'.$nombre_fuente.'</option>';
 		}
 	?>
 	</select>
@@ -102,12 +106,10 @@ foreach ($signo as $glifo) {
 	</section>
 <p class="cf">&nbsp;</p>
 <footer>
-<p>All your Cyrillic glyphs in one place. This project is a reference on Extended Cyrillic for designers. DISCLAIMER: The information is provided for practical design purposes. I do not garauntee 100% scientific accuracy. This service is provided «as is». All fonts used are open-source. Fork or contribute to improve.</p>
+<p>Reference on Cyrillic glyphs for designers. DISCLAIMER: Information is provided for practical design purposes only. Service is provided 'as is'. All fonts provided are open-source.</p>
 
-<p>Cyrill-o-pedia (v0.2) is a localisation fork of <a href="http://devanaguide.huertatipografica.com/">Devanaguide</a> by Andrés Torresi at <a href="http://www.huertatipografica.com/en">Huerta Tipográfica (andres@huertatipografica.com)</a>. Coded by Alexei Vanyashin (a at cyreal.org)
-View on Github.</p>
+<p>Cyrill-o-pedia (v0.2) is a localisation fork of <a href="http://devanaguide.huertatipografica.com/">Devanaguide</a> by Andrés Torresi at <a href="http://www.huertatipografica.com/en">Huerta Tipográfica (andres@huertatipografica.com)</a>. Designed and coded by Alexei Vanyashin. View on <a href="https://github.com/alexeiva/cyrillopedia">Github</a>.</p>
 
-<p>FAQ: Install on your webserver(php required), and put your Cyrillic fonts in the 'fonts' folder. Glyphs lists is uploaded from a text file. Showing only unicode glyphs.</p>
 </footer>
 <script type="text/javascript">
 	function setfont() {
